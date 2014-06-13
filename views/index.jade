@@ -1,8 +1,6 @@
 extends layout
 
 block content
-  //- h1= title
-  //- p Welcome Nice really nice #{title}
   section.message-container
     h1.title= title
     form#form.form(action='#', method='get')
@@ -18,4 +16,3 @@ block content
           textarea#message(placeholder='Message…', name='message', tabindex='3')
 
       button#submit Send Message
-

@@ -1,5 +1,4 @@
-// * Let's default this puppy out
-// *-------------------------------------------------------------------------------
+// * Reset
 
 html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, abbr, address, cite, code, del, dfn, em, img, ins, kbd, q, samp, small, strong, sub, sup, var, b, i, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, figure, footer, header, hgroup, menu, nav, section, menu, time, mark, audio, video {
   margin: 0;
@@ -40,13 +39,12 @@ img {
 // * we use a lot of ULs that aren't bulleted.
 // * don't forget to restore the bullets within content.
 
-ol,ul {
+ol, ul {
   list-style: none;
 }
 
 blockquote, q {
   quotes: none;
-
   &:before, &:after {
     content: '';
     content: none;
@@ -60,7 +58,7 @@ a {
   vertical-align: baseline;
   background: transparent;
   &:focus {
-    text-decoration: underline ;
+    text-decoration: underline;
     outline: none;
   }
 }
@@ -68,7 +66,6 @@ a {
 del {
   text-decoration: line-through;
 }
-
 
 pre {
   //white-space: pre
@@ -124,7 +121,6 @@ pre, code, kbd, samp {
 %stipe-cursor-pointer {
   cursor: pointer;
 }
-
 
 .clickable {
   @extend %stipe-cursor-pointer;
