@@ -47,3 +47,10 @@ Note: Nodemon will restart/refresh the server for you if you change the views.
 Open new tab in terminal.app and type
 
 `grunt`
+
+Open Chrome and go to this URL:
+
+**localhost:3000**
+
+-------
+Credit to Dale Sande for showing me how it's done. [anotheruiguy](https://github.com/anotheruiguy)
